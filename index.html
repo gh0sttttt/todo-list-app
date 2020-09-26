@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Import Materialize CSS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous">
+
+  <title>List</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div id="main" class="card grey darken-4">
+          <div class="card-content">
+            <div class="row">
+              <form id="form">
+                <div class="input-field col s12">
+                  <input type="text" name="item" id="item" class="white-text"
+                    placeholder="add something!">
+                  <label for="item">new item</label>
+                </div>
+                <button type="submit" value="add item"
+                  class="btn yellow darken-3 waves-effect waves-yellow">submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="card-action">
+            <div class="input-field col s12">
+              <input type="text" name="filter" id="filter"
+                placeholder="search for something!">
+              <label for="filter">filter items</label>
+            </div>
+            <ul class="collection"></ul>
+            <a href="#"
+              class="clear-items btn blue-grey lighten waves-effect waves-light">clear
+              items</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

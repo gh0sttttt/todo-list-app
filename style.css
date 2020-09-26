@@ -1,0 +1,18 @@
+   /* label focus color */
+   #form .input-field input[type=text]:focus + label, .card-action .input-field input[type=text]:focus + label {
+     color: #fbc02d;
+   }
+   /* label underline focus color */
+   #form .input-field input[type=text]:focus,
+   .card-action .input-field input[type=text]:focus {
+     border-bottom: 1px solid #fbc02d;
+     box-shadow: none;
+   }
+
+   #form .input-field > label:focus {
+     color: #fbc02d;
+   }
+
+   .card {
+     border: 5px solid #fff;
+   }
